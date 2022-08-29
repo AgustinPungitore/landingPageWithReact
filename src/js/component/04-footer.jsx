@@ -1,17 +1,12 @@
-import React from "react"
+import React from "react";
 
-export default function Footer (){
-    <div className="pos-f-t">
-    <div className="collapse" id="navbarToggleExternalContent">
-    <div className="bg-dark p-4">
-    <h4 className="text-white">Collapsed content</h4>
-    <span className="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-    </div>
-    <nav className="navbar navbar-dark bg-dark">
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-    </button>
-    </nav>
-    </div>
-}
+const Footer = () => {
+	return (
+		<>
+		<nav className="navbar-expand-lg text-white-50 bg-dark p-3">
+   <p className="text-center">All rights reserved</p>
+</nav>
+		</>
+	);
+};
+export default Footer;
